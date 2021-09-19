@@ -1,0 +1,93 @@
+*{
+    margin:0vw;
+    padding:0vw;
+}
+/*header section*/
+.header{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(44, 39, 39);
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-size: 1.62vw;
+    cursor: pointer;
+    padding-left: 2vw;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li:hover{
+    transform: scale(1.2,1.2);
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.98vw 0.98vw 0.66vw 0.98vw;
+    font-size: 1.49vw;
+    font-family: 'EB Garamond', serif;  
+}
+.navigation ul li a:hover{
+    color: rgb(99, 153, 88);
+}
+
+/*main Section*/
+.main{
+    background-image: url(https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding-top: 9.76vw;
+}
+.padd{
+    background-color: rgba(44, 39, 39, 0.755);
+    margin-left: 9.76vw;
+    width: 70%;
+    padding: 1.30vw;
+    height: auto;
+    color: white; 
+}
+.padd h1{
+    font-size: 3.25vw;
+}
+.padd p{
+    font-size: 1.30vw;
+}
+.padd .btn{
+    background-color: rgb(228, 236, 229);
+    width: 20%;
+    margin-top: 0.65vw;
+    font-size: 0.97vw;
+    padding:1vw ;
+    border-style: none;
+    border-radius: 0.32vw;
+}
+.padd .btn:hover{
+    background-color: rgb(99, 153, 88);
+    color: white;
+}
+#image{
+    text-align: center;
+}
+.padd .img{
+    width: 20vw;
+    margin-left: 1.3vw;
+}
+.padd .img1{
+    width: 19.25vw;
+    margin-left: 1.3vw;
+}
+.footer {
+    font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+    font-size: 1.50vw;
+    
+}
+
+
